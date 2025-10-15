@@ -1,5 +1,4 @@
-/* 
-  Variáveis para cores:
+/* Variáveis para cores:
   --fundo-principal
   --texto
   --texto-inverso
@@ -190,7 +189,8 @@ article h2 {
 #projeto-container .foto {
   width: 100%;
   aspect-ratio: 16/9;
-  object-fit: cover;
+  /* ALTERAÇÃO AQUI: Garante que a imagem inteira seja visível */
+  object-fit: contain; 
   overflow: hidden;
   border-radius: 8px;
 }
